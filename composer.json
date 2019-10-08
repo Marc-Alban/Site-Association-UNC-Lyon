@@ -1,0 +1,14 @@
+{
+    "name": "unc/projet",
+    "description": "Autoloader pour le site UNC-Ecully",
+    "authors": [{
+        "name": "Marc-Alban",
+        "email": "millet.marcalban@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Unc\\": "src"
+        }
+    }
+}
